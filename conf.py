@@ -58,6 +58,8 @@ html_theme = 'sphinx_rtd_theme'
 html_context = {
     'display_github': True,
     'github_user': "luomu2019",
+    "theme_vcs_pageview_mode": "edit",
+    'github_version': "master/",
     'github_repo': 'truetype'
 }
 html_theme_options = {
