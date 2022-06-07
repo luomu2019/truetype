@@ -30,7 +30,7 @@ release = '1.0'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx_rtd_theme']
+extensions = ['sphinx_rtd_theme', 'sphinx_togglebutton']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -57,11 +57,13 @@ html_theme = 'sphinx_rtd_theme'
 
 html_context = {
     'display_github': True,
+    #'last_updated' : True,
     'github_user': "luomu2019",
     "theme_vcs_pageview_mode": "edit",
     'github_version': "master/",
     'github_repo': 'truetype'
 }
+html_last_updated_fmt =  '%Y/%m/%d %H:%M'
 html_theme_options = {
     'logo_only': False,
     'display_version': True,
@@ -79,3 +81,11 @@ html_theme_options = {
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
+html_css_files = [
+    'custom.css',
+]
+html_js_files = [
+    'custom.js',
+]
+togglebutton_hint = "显示原文"
+togglebutton_hint_hide = "隐藏原文"
