@@ -4,7 +4,7 @@
 
 介绍
 =======
-本章记录了构成TrueType字体文件的字体表，包括核心TrueType规范的 AAT 扩展。OpenType 特定表格的文档不包括在内，即使是在OSX和iOS系统支持的OpenType字体， 上支持的表格。有关这些表的更多信息，请参阅 `OpenType 规范 <http://www.microsoft.com/typography/otspec/>`__ 。
+本章记录了构成TrueType字体文件的字体表，包括核心TrueType规范的 AAT 扩展。OpenType 字体特有的表不包括在内，即使是在OSX和iOS系统支持的OpenType字体， 上支持的表格。有关这些表的更多信息，请参阅 `OpenType 规范 <http://www.microsoft.com/typography/otspec/>`__ 。
 
 表1 描述了所有平台上 TrueType 字体文件中使用的数据类型。
 

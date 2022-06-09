@@ -3,7 +3,8 @@ TrueType字体参考手册
 ======================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    
    README
-   chap6/index
+   字体表  <RM06/Chap6>
+   'head'  <RM06/Chap6head>
