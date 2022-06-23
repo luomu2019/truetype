@@ -6,5 +6,17 @@ TrueType字体参考手册
    :maxdepth: 3
    
    README
-   字体表  <RM06/Chap6>
-   'head'  <RM06/Chap6head>
+   glossary
+   otff
+   maxp
+   head
+   hhea
+   cmap
+   cff
+   cff2
+   os2
+   glyf
+   loca
+   name
+   hmtx
+   post
